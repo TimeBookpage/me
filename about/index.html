@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>RavelloH’s Blog | About</title>
+    <meta name="keywords" content="RavelloH,blog,">
+    <meta name="description" content="A Blog by RavelloH">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="/css/common.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <link type="text/css" rel="stylesheet" href="/css/iconfont.css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="/js/loading.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+
+</head>
+
+<body>
+
+    <body>
+
+        <section class="showcase">
+            <header>
+                <h2 class="logo">
+                    <a href="/">
+                        <img class="logoimg" src="/img/avatar.jpg" style="width: 1.5em;border-radius: 50%;"
+                            alt="avatar">
+                        <img class="logoimg" src="/img/RavelloH.svg" alt="RavelloH's Blog">
+                    </a>
+
+                </h2>
+                <div class="headers">
+                    <nav>
+                        <a href="/">
+                            HOME
+                        </a>
+                        <a href="/works/">
+                            WORKS
+                        </a>
+                        <a href="/articles/">
+                            ARTICLES
+                        </a>
+                        <a href="/tag/">
+                            TAG
+                        </a>
+                        <a href="/about/">
+                            ABOUT
+                        </a>
+                        </p>
+                    </nav>
+                </div>
+                <div class="toggle" class="header">
+                </div>
+            </header>
+
+            <div class="overlay"></div>
+            <div class="text" id="text">
+                <h3>ABOUT - 关于</h3>
+                <p>
+                    About This: <br>
+                    此blog由RavelloH制作并维护。
+                    <br> 此博客使用了
+                    Github Pages与Gitee Pages 提供的静态资源服务器服务。<br> 原创内容使用 知识共享 署名-非商业性使用-相同方式共享
+                    4.0 (CC BY-NC-ND 4.0) 协议授权。<br>Themes by <a href="http://ravelloh.github.io">RavelloH</a>。<br><br>
+                    <span id="runtime_span">网站已运行:请打开JavaScript!!!</span>
+                    <script type="text/javascript">
+                        function show_runtime() {
+                            window.setTimeout("show_runtime()", 1000);
+                            X = new Date("2/03/2019 20:52:00");
+                            Y = new Date();
+                            T = (Y.getTime() - X.getTime());
+                            M = 24 * 60 * 60 * 1000;
+                            a = T / M;
+                            A = Math.floor(a);
+                            b = (a - A) * 24;
+                            B = Math.floor(b);
+                            c = (b - B) * 60;
+                            C = Math.floor((b - B) * 60);
+                            D = Math.floor((c - C) * 60);
+                            runtime_span.innerHTML = "网站已运行:" + A + "天" + B + "小时" + C + "分" + D + "秒。"
+                        }
+                        show_runtime();
+                    </script>
+                    <br>
+
+                </p>
+            </div>
+            <span class="iconfontlarge icon-about"></span>
+            <ul class="social">
+                <li><a href="/about/"><span class="iconfont icon-about"></span></a></li>
+                <li><a href="http://github.com/ravelloh" target="_blank" rel="noreferrer"><span
+                            class="iconfont icon-github"></span></a></li>
+                <li>
+                    <a href="http://xeocnet-studio.github.io" target="_blank" rel="noreferrer">
+                        <span class="iconfont icon-home">
+                            </span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <div class="menu">
+            <ul>
+                <script type="text/javascript" src="/js/menu.js"></script>
+            </ul>
+        </div>
+
+        <script src="/js/script.js"></script>
+        <script src="//instant.page/5.1.0" type="module"
+            integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+    </body>
+
+</html>
